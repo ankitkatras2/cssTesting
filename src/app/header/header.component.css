@@ -1,0 +1,16 @@
+.transparentBg {
+    background-color: transparent;
+    border-top-color: transparent;
+}
+@media (max-width: 768px) {
+    .navbar-collapse.collapse {
+        background: rgb(255, 255, 255);
+        z-index: 1;
+    }
+    .nav-link {
+        color: black !important;
+    }
+}
+.zIndex {
+    z-index: 2;
+}

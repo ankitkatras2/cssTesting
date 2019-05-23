@@ -1,0 +1,22 @@
+.marginTop {
+	margin-top: 140px;
+}
+.topHeight {
+	top: 140px;
+}
+.nav-tabs.style-1 > li > a{
+	color: #333333 !important;
+}
+.nav-tabs.style-1 > li > a:hover{
+color: #ffffff !important;
+}
+.nav-tabs.style-1 > li > a.active, .nav-tabs.style-1 > li > a.active:hover, .nav-tabs.style-1 > li > a.active:focus{
+color: #ffffff !important;
+} 
+
+.customSize {
+	font-size: 45px !important;
+	text-align: initial !important;
+}
+
+

@@ -1,0 +1,56 @@
+<div class="section pv-40 fixed-bg two-col-translucent-bg background-img-7">
+  <div class="container">
+    <div class="row" data-animation-effect="fadeInRightSmall" data-effect-delay="250">
+      <div class="col-lg-6 text-center">
+        <h3 class="mt-4 textBold grayText">3D FLIP BUTTON - Code
+          <a class="externalLink" href="https://bootsnipp.com/snippets/nPE28" target="_blank" pTooltip="Original Source" tooltipPosition="top"
+            placeholder="Top">
+            <i class="fa fa-external-link-square" aria-hidden="true"></i>
+          </a>
+        </h3>
+        <div class="separator"></div>
+        <ul class="nav nav-tabs style-1" role="tablist">
+          <li class="nav-item dashTabOne">
+            <a class="nav-link" href="#htab1" role="tab" data-toggle="tab">
+              HTML</a>
+          </li>
+          <li class="nav-item dashTabTwo">
+            <a class="nav-link active" href="#htab2" role="tab" data-toggle="tab">
+              CSS</a>
+          </li>
+          <li class="nav-item dashTabThree">
+            <a class="nav-link" href="#htab3" role="tab" data-toggle="tab">
+              JS</a>
+          </li>
+        </ul>
+        <div class="tab-content fixedHeight">
+          <div class="tab-pane fade" id="htab1" role="tabpanel">
+            <prism-block [code]="htmlCode" [language]="'html'"></prism-block>
+          </div>
+          <div class="tab-pane fade show active" id="htab2" role="tabpanel">
+            <prism-block [code]="cssCode" [language]="'css'"></prism-block>
+          </div>
+          <div class="tab-pane fade" id="htab3" role="tabpanel">
+            <prism-block [code]="jsCode" [language]="'js'"></prism-block>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 text-center">
+        <h3 class="mt-4 textBold">3D FLIP BUTTON - Preview</h3>
+        <div class="separator"></div>
+
+        <!-- flip-to-top or flip-to-bottom -->
+        <div class="cube flip-to-top alignTop">
+          <div class="default-state">
+            <span>Hover</span>
+          </div>
+          <div class="active-state">
+            <span>...and I flip</span>
+          </div>
+        </div>
+
+        <a id="flipto" class="pointer" data-face="bottom">Flip: to bottom</a>
+      </div>
+    </div>
+  </div>
+</div>
