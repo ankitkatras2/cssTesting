@@ -36,3 +36,13 @@
     color: darkgray !important;
     font-size: medium !important;
 }
+
+.pointer {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .previewText {
+        color: black !important;
+    }
+}
