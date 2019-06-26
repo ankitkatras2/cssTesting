@@ -1,0 +1,91 @@
+/* Basic Config
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.codeCol ul {
+    list-style-type: none;
+    padding-left: 50px;
+    margin: 0;
+}
+
+.codeCol li {
+    display: block;
+    position: relative;
+    padding: 20px 0px;
+}
+
+.codeCol h2 {
+    margin: 10px 0;
+    font-weight: 900;
+    color: black !important;
+}
+
+/* Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: #FDFBFB;
+    width: 300px;
+    padding: 20px 25px;
+    border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.13);
+    color: black !important;
+}
+
+@media (min-width: 1024px) {
+    .card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
+
+/* Radio Button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+}
+
+label {
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.check {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    transition: transform .6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+/* Reset */
+
+input#radioOne~.check {
+    transform: translate(-50px, -32px);
+    background: #B2D7F5;
+}
+
+input#radioTwo~.check {
+    transform: translate(-50px, -100px);
+    background: #2196F3;
+    box-shadow: 0 6px 12px rgba(33, 150, 243, 0.35);
+}
+
+/* Radio Input #1 */
+
+input#radioOne:checked~.check {
+    transform: translate(-50px, 36px);
+}
+
+/* Radio Input #2  */
+
+input#radioTwo:checked~.check {
+    transform: translate(-50px, -32px);
+}

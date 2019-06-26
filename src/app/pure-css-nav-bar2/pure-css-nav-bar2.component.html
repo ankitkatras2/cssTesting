@@ -1,0 +1,75 @@
+<div class="section pv-40 fixed-bg two-col-translucent-bg background-img-7">
+  <div class="container">
+    <div class="row" data-animation-effect="fadeInRightSmall" data-effect-delay="250">
+      <div class="col-lg-6 text-center">
+        <h3 class="mt-4 textBold grayText">Pure CSS Navigation 2 - Code
+          <a class="externalLink" href="https://codepen.io/andrejsharapov/pen/jJXEGq" target="_blank" pTooltip="Original Source"
+            tooltipPosition="top" placeholder="Top">
+            <i class="fa fa-external-link-square" aria-hidden="true"></i>
+          </a>
+        </h3>
+        <div class="separator"></div>
+        <ul class="nav nav-tabs style-1" role="tablist">
+          <li class="nav-item dashTabOne">
+            <a class="nav-link" href="#purecssnav21" role="tab" data-toggle="tab">
+              HTML</a>
+          </li>
+          <li class="nav-item dashTabTwo">
+            <a class="nav-link active" href="#purecssnav22" role="tab" data-toggle="tab">
+              CSS</a>
+          </li>
+          <li class="nav-item dashTabThree">
+            <a class="nav-link" href="#purecssnav23" role="tab" data-toggle="tab">
+              JS</a>
+          </li>
+        </ul>
+        <div class="tab-content fixedHeight">
+          <div class="tab-pane fade" id="purecssnav21" role="tabpanel">
+            <prism-block [code]="htmlCode" [language]="'html'"></prism-block>
+          </div>
+          <div class="tab-pane fade show active" id="purecssnav22" role="tabpanel">
+            <prism-block [code]="cssCode" [language]="'css'"></prism-block>
+          </div>
+          <div class="tab-pane fade" id="purecssnav23" role="tabpanel">
+            <prism-block [code]="jsCode" [language]="'js'"></prism-block>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 text-center">
+        <h3 class="mt-4 textBold previewText">Pure CSS Navigation 2 - Preview</h3>
+        <div class="separator"></div>
+        <div class="codeStart">
+          <input type="checkbox" id="check" />
+          <label for="check">
+            <svg viewBox="0 0 30 30" width="30" height="30">
+              <path id="one" d="M4 10h22M4" stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+              <path id="two" d="M4 20h22M4" stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+            </svg> Click me</label>
+          <aside>
+            <div class="top">
+              <h2>Title</h2>
+              <ul>
+                <li>Nav text</li>
+                <li>Nav text</li>
+                <li>Nav text</li>
+                <li>Nav text</li>
+                <li>Nav text</li>
+              </ul>
+            </div>
+          </aside>
+          <article>
+            <div class="wrapper">
+              <div class="content">
+                <h1>Off-Canvas menu on Pure CSS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident rerum unde porro consequatur doloribus
+                  ex distinctio similique, voluptas repellendus voluptates nam dolorum! Repudiandae maxime, itaque vero dolorem
+                  distinctio inventore explicabo!</p>
+                <p>Odio eaque cum blanditiis esse, earum saepe voluptate quae aliquid possimus facere non qui illo necessitatibus
+                  eveniet ab sit quaerat. Atque animi nulla veritatis molestiae qui ipsam ut assumenda facilis?</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>

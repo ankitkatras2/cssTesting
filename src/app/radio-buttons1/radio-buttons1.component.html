@@ -1,0 +1,63 @@
+<div class="section pv-40 fixed-bg two-col-translucent-bg background-img-7">
+  <div class="container">
+    <div class="row" data-animation-effect="fadeInRightSmall" data-effect-delay="250">
+      <div class="col-lg-6 text-center">
+        <h3 class="mt-4 textBold grayText">Pure CSS Radio Buttons 1 - Code
+          <a class="externalLink" href="https://codepen.io/rauldronca/pen/VBBJMy" target="_blank" pTooltip="Original Source" tooltipPosition="top"
+            placeholder="Top">
+            <i class="fa fa-external-link-square" aria-hidden="true"></i>
+          </a>
+        </h3>
+        <div class="separator"></div>
+        <ul class="nav nav-tabs style-1" role="tablist">
+          <li class="nav-item dashTabOne">
+            <a class="nav-link" href="#purecssRadio11" role="tab" data-toggle="tab">
+              HTML</a>
+          </li>
+          <li class="nav-item dashTabTwo">
+            <a class="nav-link active" href="#purecssRadio12" role="tab" data-toggle="tab">
+              CSS</a>
+          </li>
+          <li class="nav-item dashTabThree">
+            <a class="nav-link" href="#purecssRadio13" role="tab" data-toggle="tab">
+              JS</a>
+          </li>
+        </ul>
+        <div class="tab-content fixedHeight">
+          <div class="tab-pane fade" id="purecssRadio11" role="tabpanel">
+            <prism-block [code]="htmlCode" [language]="'html'"></prism-block>
+          </div>
+          <div class="tab-pane fade show active" id="purecssRadio12" role="tabpanel">
+            <prism-block [code]="cssCode" [language]="'css'"></prism-block>
+          </div>
+          <div class="tab-pane fade" id="purecssRadio13" role="tabpanel">
+            <prism-block [code]="jsCode" [language]="'js'"></prism-block>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 text-center codeCol">
+        <h3 class="mt-4 textBold previewText">Pure CSS Radio Buttons 1 - Preview</h3>
+        <div class="separator"></div>
+        <div class="codeStart">
+          <div class="card">
+            <h2>Make Selection</h2>
+            <ul>
+              <li>
+                <input type="radio" name="name" id="radioOne" checked />
+                <label for="radioOne">Option #1</label>
+
+                <div class="check"></div>
+              </li>
+
+              <li>
+                <input type="radio" name="name" id="radioTwo" />
+                <label for="radioTwo">Option #2</label>
+
+                <div class="check"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

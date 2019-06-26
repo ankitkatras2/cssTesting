@@ -22,6 +22,9 @@ import { UnderwaterPatternComponent } from './underwater-pattern/underwater-patt
 import { BoxesFloatUpComponent } from './boxes-float-up/boxes-float-up.component';
 import { BorderAnimationButtonComponent } from './border-animation-button/border-animation-button.component';
 import { PureCssNavBar1Component } from './pure-css-nav-bar1/pure-css-nav-bar1.component';
+import { PureCssNavBar2Component } from './pure-css-nav-bar2/pure-css-nav-bar2.component';
+import { SocialButtons1Component } from './social-buttons1/social-buttons1.component';
+import { RadioButtons1Component } from './radio-buttons1/radio-buttons1.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { PureCssNavBar1Component } from './pure-css-nav-bar1/pure-css-nav-bar1.c
     UnderwaterPatternComponent,
     BoxesFloatUpComponent,
     BorderAnimationButtonComponent,
-    PureCssNavBar1Component
+    PureCssNavBar1Component,
+    PureCssNavBar2Component,
+    SocialButtons1Component,
+    RadioButtons1Component
   ],
   imports: [
     BrowserModule,
