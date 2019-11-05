@@ -25,6 +25,8 @@ import { PureCssNavBar1Component } from './pure-css-nav-bar1/pure-css-nav-bar1.c
 import { PureCssNavBar2Component } from './pure-css-nav-bar2/pure-css-nav-bar2.component';
 import { SocialButtons1Component } from './social-buttons1/social-buttons1.component';
 import { RadioButtons1Component } from './radio-buttons1/radio-buttons1.component';
+import { InformationCardComponent } from './information-card/information-card.component';
+import { BeforeAfterSliderComponent } from './before-after-slider/before-after-slider.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { RadioButtons1Component } from './radio-buttons1/radio-buttons1.componen
     PureCssNavBar1Component,
     PureCssNavBar2Component,
     SocialButtons1Component,
-    RadioButtons1Component
+    RadioButtons1Component,
+    InformationCardComponent,
+    BeforeAfterSliderComponent
   ],
   imports: [
     BrowserModule,
